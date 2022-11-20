@@ -1,0 +1,11 @@
+@import url(normalize.css); 
+
+*{
+    background-color:rgb(215, 212, 233);
+}
+.header_cv {
+color: #d76d10;
+display:inline-block;
+
+background-color: rgb(42, 52, 80);
+}
