@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://github.com/AlmazVafin/rsschool-cv/
+https://almazvafin.github.io/rsschool-cv/
