@@ -1,11 +1,22 @@
 @import url(normalize.css); 
 
-*{
-    background-color:rgb(215, 212, 233);
-}
-.header_cv {
-color: #d76d10;
-display:inline-block;
+@font-face {
+    font-family: Source Sans Pro;
+     src: url("assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+   }
+   * {
+    box-sizing: border-box;
+  }
 
-background-color: rgb(42, 52, 80);
-}
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
