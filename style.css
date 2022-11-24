@@ -15,8 +15,9 @@ html {
 
 
 header{
-  background-color: rgba(24, 21, 47, 0.11);
   border-bottom: 1px solid #dfdcec;
+  background-color: rgba(24, 21, 47, 0.11);
+  
 }
 
 body {
@@ -40,8 +41,8 @@ body {
     background-position: center center; 
 }
 main{
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(70, 54, 54);
   margin-bottom: auto; 
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(70, 54, 54);
 }
 
 
@@ -126,10 +127,10 @@ padding:0 20px;
 
 .section-profile {
   display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 50px 30px 35px;
-    border-bottom: 1px solid #f6f2ed;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 1px solid #f6f2ed;
 }
 .section-profile-photo {
   width: 150px;
@@ -153,7 +154,6 @@ padding:0 20px;
   text-align: center;
 }
 .section-title {
-  
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -187,10 +187,10 @@ padding:0 20px;
   justify-content: space-between;
   align-items: center;
   margin: 50px auto;
-  color: #fff;
-  background-color: rgb(12, 7, 46, 0.1);
   border-top: 1px solid whitesmoke;
   padding: 10px;
+  color: #fff;
+  background-color: rgb(12, 7, 46, 0.1);
 }
 
 .rss-wrap {
@@ -209,8 +209,8 @@ padding:0 20px;
   transform: scale(1.1); /* Увеличиваем масштаб */
 }
 .footer {
+  padding: 20px; 
   background-color: rgb(130, 153, 133);
-  padding: 20px;  
 }
 
 /** Adaptive **/
