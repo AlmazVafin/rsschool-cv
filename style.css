@@ -140,10 +140,12 @@ padding:0 20px;
   box-shadow: 0 2px 10px rgba(35, 21, 4, 0.923);
   filter: grayscale(0.1) brightness(0.91) contrast(0.91) saturate(80%) hue-rotate(20deg);
   transition: .3s;
+  
 }
 .section-profile-photo:hover {
   filter: grayscale(0.01) brightness(0.9) contrast(0.9) saturate(100%) hue-rotate(20deg);
   box-shadow: 0 2px 10px rgba(114, 116, 128, 0.923);
+
 }
 
 .section-profile-title {
