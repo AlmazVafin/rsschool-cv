@@ -8,6 +8,7 @@
 * {
     box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,7 +16,8 @@ html {
 
 header{
   border-bottom: 1px solid #dfdcec;
-  background-color: rgba(24, 21, 47, 0.11); 
+  background-color: rgba(24, 21, 47, 0.11);
+  
 }
 
 body {
@@ -54,7 +56,7 @@ li {
     margin: 0 auto;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -131,7 +133,7 @@ padding:0 20px;
   position: relative;
   padding: 0 12px;
   text-decoration: none;
-  color: rgb(225, 225, 235); 
+  color: rgb(225, 225, 235);
   transition:0.3s;
   line-height: 30px;
 }
@@ -139,7 +141,7 @@ padding:0 20px;
   color:rgba(18, 17, 26, 1);
   font-weight: 400;
   opacity: 1;
-  background: rgba(247, 241, 241, 0.9);   
+  background: rgba(247, 241, 241, 0.9);
   border-radius: 5%;
   transition: 1s; 
   text-shadow: none;
@@ -161,17 +163,17 @@ padding:0 20px;
 .rss-wrap {
   width: 100px;
   height: 40px;
-  display: inline-block; 
+  display: inline-block;
   overflow: hidden; 
   background-color: rgb(246, 242, 237);
 }
 .rss-wrap img {
-  transition: 0.5s; 
+  transition: 0.5s;
   display: block; 
   margin: auto;
 }
 .rss-wrap img:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 .footer {
   padding: 20px; 
